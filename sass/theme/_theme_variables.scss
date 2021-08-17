@@ -1,0 +1,113 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+//COLOURS//
+$color-primary: #255c92;
+$color-secondary: #3F7AB2;
+$color-light-blue: #4d9feb;
+// $color-lighter-blue: #A6CFF5;
+// $color-lightest-blue: #D3E7FA;
+$color-pink: #F7DEE0;
+$color-white: #ffffff;
+$color-black: #333333;
+$color-green-product-bg: #00b56170;
+$color-green-product-text: #076138;
+$color-amber-product-bg: #e8b658be;
+$color-amber-product-text: #986200;
+$color-other-product-bg: #cee7f3cb;
+$color-other-product-text: #5b92b3;
+$color-onsite-product-bg: #808080bd;
+$color-onsite-product-text: #2b2b2b;
+$color-grey-product-bg: #808080bd;
+$color-grey-product-text: #2b2b2b;
+$color-nrtt-primary: #8B5FBF;
+$color-nrtt-secondary: #D183C9;
+$color-nrtt-light-blue: #FEC0CE;
+
+//FONTS//
+$font-primary: "Euclid", "Roboto", "Corbel",
+Arial,
+Helvetica,
+sans-serif;
+$font-header: "Euclid-Bold", "Roboto-Bold", "Corbel-Bold",
+Arial,
+Helvetica,
+sans-serif;
+
+
+@font-face {
+  font-family: 'Corbel';
+  src: url('../fonts/Corbel.eot');
+  src: url('../fonts/Corbel.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Corbel.woff2') format('woff2'),
+      url('../fonts/Corbel.woff') format('woff'),
+      url('../fonts/Corbel.ttf') format('truetype'),
+      url('../fonts/Corbel.svg#Corbel') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Corbel-Bold';
+  src: url('../fonts/Corbel-Bold.eot');
+  src: url('../fonts/Corbel-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Corbel-Bold.woff2') format('woff2'),
+      url('../fonts/Corbel-Bold.woff') format('woff'),
+      url('../fonts/Corbel-Bold.ttf') format('truetype'),
+      url('../fonts/Corbel-Bold.svg#Corbel-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Euclid';
+  src: url('../fonts/EuclidCircularA-Regular.eot');
+  src: url('../fonts/EuclidCircularA-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/EuclidCircularA-Regular.woff2') format('woff2'),
+      url('../fonts/EuclidCircularA-Regular.woff') format('woff'),
+      url('../fonts/EuclidCircularA-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Euclid-Bold';
+  src: url('../fonts/EuclidCircularA-Bold.eot');
+  src: url('../fonts/EuclidCircularA-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/EuclidCircularA-Bold.woff2') format('woff2'),
+      url('../fonts/EuclidCircularA-Bold.woff') format('woff'),
+      url('../fonts/EuclidCircularA-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Regular.woff2') format('woff2'),
+      url('../fonts/Roboto-Regular.woff') format('woff'),
+      url('../fonts/Roboto-Regular.ttf') format('truetype'),
+      url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Bold.woff2') format('woff2'),
+      url('../fonts/Roboto-Bold.woff') format('woff'),
+      url('../fonts/Roboto-Bold.ttf') format('truetype'),
+      url('../fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+

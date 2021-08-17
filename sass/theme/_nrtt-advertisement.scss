@@ -1,0 +1,44 @@
+.nrtt-hero {
+	background-position: 50% 50%;
+  background-size: cover;
+  height: auto;
+	.nrtt-overlay {
+		background-color: #343a404d;
+		height: 100%;
+		width: 100%;
+	}
+	.nrtt-container {
+		z-index: 2;
+		.nrtt-logo {
+			width: 120px;
+		}
+		.nrtt-intro {
+			max-width: 600px;
+			a {
+				text-decoration: none;
+				font-weight: bold;
+				&:hover {
+					color: $color-nrtt-primary;
+				}
+			}
+			p {
+				font-size: 1.2rem;
+			}
+		}
+		
+		.nrtt-btn {
+			color: $color-white;
+			background-color: $color-nrtt-primary;
+			font-size: 1.6rem;
+			font-family: $font-header;
+			border-radius: 50px;
+			transition: 0.3s ease-in-out;
+			&:hover {
+				color: $color-white;
+				background-color: $color-nrtt-secondary;
+			}
+		}
+	}
+	
+}
+

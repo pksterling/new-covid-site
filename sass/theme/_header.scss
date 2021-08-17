@@ -1,0 +1,127 @@
+.header-top {
+    background-color: $color-white;
+    .logos {
+        max-width: 150px;
+    }
+    .socials {
+        a {
+            font-size: 2rem;
+            transition: 0.6s;
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+#main-nav {
+    ul {
+        border-radius: 5px;
+        li {
+            padding: 0 0.6em;
+            a {
+                color: $color-primary;
+                font-size: 1.0rem;
+            }
+        }
+        li:hover {
+            a {
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+.cart-icon-container {
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.cart-contents:before {
+    font-family:WooCommerce;
+    content: "\e01d";
+    font-size:2.4rem;
+    font-style:normal;
+    font-weight:900;
+    vertical-align: bottom;
+    color: $color-primary;
+    transition: 0.6s;
+    &:hover {
+        color: $color-black;
+    }
+}
+.cart-contents-count {
+    color: $color-primary;
+    background-color: $color-pink;
+    font-weight: bold;
+    font-family: $font-header;
+    border-radius: 25px;
+    padding: 6px 6px;
+    min-width: 26px;
+    text-align: center;
+    margin-left:5px;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: unset;
+    position: absolute;
+    right: -10px;
+    top: 0px;
+}
+
+.green-travel-nav {
+    background-color: $color-light-blue;
+    padding: 5px 12px;
+    border-radius: 2px;
+    margin: 0 10px;
+    a {
+        color: $color-white!important;
+    }
+}
+
+.amber-travel-nav {
+    background-color: $color-secondary;
+    padding: 5px 20px;
+    border-radius: 2px;
+    margin: 0 10px;
+    a {
+        color: $color-white!important;
+    }
+}
+
+.other-tests-nav {
+    background-color: $color-primary;
+    padding: 5px 12px;
+    border-radius: 2px;
+    margin: 0 10px;
+    a {
+        color: $color-white!important;
+    }
+}
+
+.onsite-tests-nav {
+    background-color: $color-onsite-product-bg;
+    padding: 5px 12px;
+    border-radius: 25px;
+    margin: 0 10px;
+    a {
+        color: $color-onsite-product-text!important;
+    }
+}
+
+.discount-banner {
+    background-color: $color-primary;
+    .discount-text {
+        color: white;
+        font-weight: bold;
+        font-size: 19px;
+    }
+    .discount-text-bigger {
+        color: white;
+        font-weight: bold;
+    }
+}
+.book-ref-banner {
+	background-color: $color-pink;
+}

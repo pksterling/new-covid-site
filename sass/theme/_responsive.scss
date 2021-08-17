@@ -1,0 +1,178 @@
+    // Large devices (desktops, less than 1200px)
+    @media (max-width: 1199.98px) {
+        p,
+        a {
+            font-size: 0.9rem;
+        }
+        //get involved/resources
+        .bullet {
+            .bullet-title {
+                width: 70%;
+                .donate-btn {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+
+        .product-card {
+            width: 45%;
+        }
+
+    }
+    
+    // Medium devices (tablets, less than 992px)
+    @media (max-width: 991.98px) {
+        p,
+        a {
+            font-size: 0.8rem;
+        }
+        // home book a test
+        .product-card {
+            width: 47%;
+        }
+        //get involved/resources
+        .bullet {
+            .bullet-title {
+                width: 80%;
+                .donate-btn {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+    
+    // Small devices (landscape phones, less than 768px)
+    @media (max-width: 767.98px) {
+        p,
+        a {
+            font-size: 0.9rem;
+        }
+        h1 {
+            font-size: 3.4rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        h4 {
+            font-size: 1.2rem;
+        }
+        .header-top {
+            .socials {
+                a {
+                    font-size: 1.4rem;
+                }
+                .donate-btn {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        #main-nav {
+            background-color: unset;
+            ul {
+                li {
+                    margin-top: 0.5rem;
+                    a {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .cart-icon-container {
+            margin-top: 0.6rem;
+        }
+        .bullet {
+            .bullet-title {
+                width: 85%;
+                h4 {
+                    font-size: 1.4rem;
+                }
+                .donate-btn {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        // home - book a test
+        .product-card {
+            width: 80%;
+        }
+        //Contact Us
+        input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+            width: 100%;
+        }
+
+        // heros
+        .home-hero, .tests-hero, .faqs-hero {
+            height: 300px;
+            h1 {
+                max-width: 500px;
+            }
+        }
+        // book a test
+        .product-card {
+            width: 100%;
+            max-width: 370px;
+            min-width: 350px;
+        }
+        // got a question
+        .gaq-image {
+            min-height: 300px;
+        }
+
+        .woocommerce #content table.cart td.actions, .woocommerce table.cart td.actions, .woocommerce-page #content table.cart td.actions, .woocommerce-page table.cart td.actions {
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 10px;
+        }
+        .woocommerce-cart-form__contents tr {
+            height: auto;
+        }
+    }
+    
+    // Extra-Small devices (landscape phones, less than 768px)
+    @media (max-width: 575.98px) {
+        .cta {
+            .fa-hand-point-right {
+                font-size: 1.6rem;
+            }
+            p,
+            a {
+                font-size: 1.2rem;
+            }
+            .donate-btn {
+                font-size: 1.6rem;
+            }
+        }
+        .bullet {
+            .bullet-title {
+                width: 97%;
+                h4 {
+                    font-size: 1rem;
+                }
+                a {
+                    color: white;
+                    i {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        // Coupon in checkout
+        .woocommerce #content table.cart td.actions .coupon, .woocommerce table.cart td.actions .coupon, .woocommerce-page #content table.cart td.actions .coupon, .woocommerce-page table.cart td.actions .coupon {
+            height: 85px;
+            display: flex;
+            flex-direction: column;
+        }
+        [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+            margin-top: 10px;
+        }
+        // checkout delivery address checkbox
+        .custom_checkbox {
+            margin-left: 16px;
+            margin-top: 7px;
+        }
+    }

@@ -1,0 +1,92 @@
+//resets
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    color: $color-primary;
+    font-family: $font-primary;
+    background-color: white;
+}
+
+figcaption {
+    color: $color-secondary;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-header;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+h4, h5, h6 {
+    color: $color-secondary;
+}
+
+h4 {
+    font-size: 1.9rem;
+    font-family: $font-primary;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 0.8rem;
+}
+
+p {
+    color: $color-secondary;
+}
+
+a {
+    color: $color-primary;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    cursor: pointer;
+    color: $color-primary;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.book-now-btn {
+    a {
+        background-color: $color-primary!important;
+        color: $color-white!important;
+        padding-left: 1rem!important;
+        padding-right: 1rem!important;
+        border-radius: 25px;
+        transition: 0.4s ease-in-out;
+        &:hover {
+            background-color: $color-secondary!important;
+        }
+    }
+}

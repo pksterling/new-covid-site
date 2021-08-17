@@ -1,0 +1,32 @@
+.footer {
+    background-color: $color-primary;
+    h6 {
+        color: $color-white;
+        font-size: 1.2rem;
+    }
+    p, a {
+        color: $color-white;
+        padding: 0.5rem 0;
+    }
+    .footer-logo {
+        img {
+            max-width: 80px;
+        }
+    }
+}
+
+.footer-kp {
+    background-color: $color-pink;
+    .kp-logo {
+        width: 40px;
+        height: auto;
+    }
+    p {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+        color: $color-primary;
+    }
+}
+i {
+    font-size: 2rem;
+}

@@ -1,0 +1,83 @@
+.which-tests-green-container {
+  background-color: $color-green-product-bg;
+  color: $color-green-product-text;
+  h1 {
+    color: $color-white;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .table {
+    .thead-dark {
+      th {
+        background-color: $color-green-product-text;
+        border-color: $color-green-product-text;
+      }
+    }
+  }
+  tr {
+    color: $color-green-product-text
+  }
+  .table-bordered td, .table-bordered th {
+    border-color: $color-green-product-text;
+  }
+  .which-tests-button {
+    background-color: $color-green-product-text;
+  }
+}
+
+.table-bottom-row {
+  height: 70px;
+  th, td {
+    border-bottom: unset;
+    border-left: unset;
+    border-right: unset;
+  }
+}
+
+tr {
+  height: 50px;
+}
+
+.table-hover tbody tr:hover {
+  background-color: unset;
+}
+
+.which-tests-button {
+  color: $color-white;
+  font-family: $font-header;
+  border-radius: 25px;
+  padding: 7px 20px;
+  cursor: pointer;
+  &:hover {
+    color: $color-white;
+  }
+}
+
+.which-tests-amber-container {
+  background-color: $color-amber-product-bg;
+  color: $color-amber-product-text;
+  h1 {
+    color: $color-white;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .table {
+    .thead-dark {
+      th {
+        background-color: $color-amber-product-text;
+        border-color: $color-amber-product-text;
+      }
+    }
+  }
+  tr {
+    color: $color-amber-product-text
+  }
+  .table-bordered td, .table-bordered th {
+    border-color: $color-amber-product-text;
+  }
+  .which-tests-button {
+    background-color: $color-amber-product-text;
+  }
+}
